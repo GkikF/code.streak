@@ -34,6 +34,3 @@ def get_user_streak(username, default=0):
     """Get a single user's streak; returns default if user not present."""
     users = load_all_users()
     return users.get(username, default)
-
-
-save_data("gkik", 7)
